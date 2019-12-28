@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="px8nxf6h">
+  <resources>
+    <image id="u3qf0" name="rankbar02.png" path="/img/"/>
+    <image id="u3qf1" name="rankbar01.png" path="/img/"/>
+    <image id="u3qf2" name="logo.png" path="/img/"/>
+    <image id="u3qf3" name="background #1979.png" path="/img/"/>
+    <component id="u3qf4" name="GameTouch.xml" path="/"/>
+    <image id="u3qf5" name="1.png" path="/img/"/>
+    <image id="u3qf6" name="0.png" path="/img/"/>
+    <component id="u3qf7" name="circle.xml" path="/Com/"/>
+    <image id="u3qf8" name="test001.png" path="/img/"/>
+    <component id="u3qf9" name="WeaponItem.xml" path="/"/>
+    <image id="k9o0a" name="rhombus.png" path="/img/"/>
+    <component id="k9o0b" name="rotateShape.xml" path="/"/>
+    <image id="k9o0c" name="tips-2.png" path="/img/"/>
+    <image id="k9o0d" name="tips-1.png" path="/img/"/>
+    <image id="k9o0e" name="bullet-1.png" path="/img/" exported="true"/>
+    <image id="k9o0f" name="tips-3.png" path="/img/"/>
+    <component id="k9o0g" name="FistTips.xml" path="/Com/"/>
+    <component id="k9o0h" name="BulletItem.xml" path="/Com/" exported="true"/>
+    <component id="k9o0i" name="GameWind.xml" path="/" exported="true"/>
+    <image id="gji1j" name="items-4.png" path="/img/"/>
+    <image id="gji1k" name="items-3.png" path="/img/"/>
+    <image id="gji1l" name="items-2.png" path="/img/"/>
+    <image id="gji1m" name="items-1.png" path="/img/"/>
+  </resources>
+  <publish name="Main" path="F:\GIT\CCCYKFamework\assets\resources\UI" packageCount="2"/>
+</packageDescription>

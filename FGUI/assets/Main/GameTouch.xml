@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" scroll="both">
+  <displayList>
+    <image id="n18_gji1" name="n18" src="u3qf3" fileName="img/background #1979.png" xy="0,0" size="720,1280" visible="false">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <graph id="n17_k9o0" name="ColliderCenter" xy="359,639" size="1,1">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <component id="n8_k9o0" name="JoystickCenter" src="k9o0b" fileName="rotateShape.xml" xy="210,490" pivot="0.5,0.5">
+      <relation target="n17_k9o0" sidePair="center-center,middle-middle"/>
+    </component>
+    <graph id="n3_u3qf" name="JoystickTouch" xy="10,290" size="700,700" type="eclipse" lineColor="#ff00ffff" fillColor="#00ffffff">
+      <relation target="n8_k9o0" sidePair="center-center,middle-middle"/>
+    </graph>
+    <component id="n5_u3qf" name="TouchArea" src="u3qf9" fileName="WeaponItem.xml" xy="321,994" pivot="0.5,0.5">
+      <relation target="n3_u3qf" sidePair="center-center,top-top"/>
+    </component>
+    <text id="n9_k9o0" name="LabelScore" xy="350,623" pivot="0.5,0.5" size="19,34" fontSize="25" color="#ffffff" align="center" vAlign="middle" bold="true" text="0">
+      <relation target="n8_k9o0" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n11_k9o0" name="LabelGem" xy="352,660" pivot="0.5,0.5" size="15,25" fontSize="18" color="#ffffff" align="center" vAlign="middle" bold="true" text="0">
+      <relation target="n9_k9o0" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n12_k9o0" name="n12" src="k9o0g" fileName="Com/FistTips.xml" xy="65,391" visible="false"/>
+    <image id="n19_gji1" name="n19" src="gji1m" fileName="img/items-1.png" xy="165,456"/>
+  </displayList>
+</component>

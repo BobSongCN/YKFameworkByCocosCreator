@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" scroll="both">
+  <displayList>
+    <image id="n2_gji1" name="ImgBack" src="u3qf3" fileName="img/background #1979.png" xy="-200,-110">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="n0_k9o0" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n0_k9o0" name="GameTouch" src="u3qf4" fileName="GameTouch.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

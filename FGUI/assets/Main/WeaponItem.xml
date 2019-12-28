@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="77,67" extention="Button">
+  <displayList>
+    <loader id="n6_u3qf" name="icon" xy="0,0" pivot="0.5,0.5" size="77,67" url="ui://px8nxf6hu3qf8" align="center" vAlign="middle" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

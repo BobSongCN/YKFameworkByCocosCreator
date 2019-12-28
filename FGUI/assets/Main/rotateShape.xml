@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,300">
+  <displayList>
+    <image id="n8_k9o0" name="shape1" src="k9o0a" fileName="img/rhombus.png" xy="24,2" pivot="0.5,0.5" scale="0.4,0.4"/>
+    <image id="n11_k9o0" name="shape2" src="k9o0a" fileName="img/rhombus.png" xy="24,2" pivot="0.5,0.5" scale="0.6,0.6"/>
+    <image id="n12_k9o0" name="shape3" src="k9o0a" fileName="img/rhombus.png" xy="24,2" pivot="0.5,0.5" scale="0.8,0.8"/>
+    <image id="n13_k9o0" name="shape4" src="k9o0a" fileName="img/rhombus.png" xy="24,2" pivot="0.5,0.5"/>
+  </displayList>
+  <transition name="rotate">
+    <item time="0" type="Rotation" target="n11_k9o0" tween="true" startValue="0" endValue="-360" duration="190" ease="Linear" repeat="-1"/>
+    <item time="0" type="Rotation" target="n12_k9o0" tween="true" startValue="0" endValue="360" duration="193" ease="Linear" repeat="-1"/>
+    <item time="0" type="Rotation" target="n13_k9o0" tween="true" startValue="0" endValue="-360" duration="191" ease="Linear" repeat="-1"/>
+    <item time="0" type="Rotation" target="n8_k9o0" tween="true" startValue="0" endValue="360" duration="192" ease="Linear" repeat="-1"/>
+  </transition>
+</component>

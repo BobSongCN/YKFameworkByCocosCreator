@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="212,212" extention="Button">
+  <controller name="button" pages="2,up,3,down,4,over,5,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_u3qf" name="thumb" src="u3qf5" fileName="img/1.png" xy="17,26" pivot="0.5,0.5">
+      <gearDisplay controller="button" pages="3,5"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>
